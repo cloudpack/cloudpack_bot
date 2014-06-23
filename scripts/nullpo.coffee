@@ -1,6 +1,6 @@
 module.exports = (robot) ->
   robot.hear /ぬるぽ/, (msg) ->
-    msg.send "
+    msg.send """
 
    Λ＿Λ    ＼＼
   （ ・∀・）   | | ｶﾞｯ
@@ -9,4 +9,4 @@ module.exports = (robot) ->
     / ）     <  >  _Λ∩
  ＿/し' ／／  Ｖ｀Д´）/
  （＿フ彡            / ←#{msg.message.user.name}
-"
+"""
