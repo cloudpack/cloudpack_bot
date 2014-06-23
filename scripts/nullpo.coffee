@@ -8,5 +8,5 @@ module.exports = (robot) ->
    Ｙ /ノ     人
     / ）     <  >  _Λ∩
  ＿/し' ／／  Ｖ｀Д´）/
- （＿フ彡            / ←#{msg.message.user.name}
+ （＿フ彡            / ←@#{msg.message.user.name}
 """
