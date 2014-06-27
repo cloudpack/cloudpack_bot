@@ -12,7 +12,7 @@
 #   hubot shiba bomb N - get N shibas
 
 module.exports = (robot) ->
-  request = (msg) -> msg.http("https://api.flickr.com/services/rest/?method=flickr.photos.search&api_key=#{process.env.FLICKR_API_KEY}&text=shiba+dog&extras=url_l&format=json&nojsoncallback=1").get()
+  request = (msg) -> msg.http("https://api.flickr.com/services/rest/?method=flickr.photos.search&api_key=#{process.env.FLICKR_API_KEY}&text=shiba+dog&sort=interestingness-desc&extras=url_l&format=json&nojsoncallback=1").get()
 
   robot.respond /shiba me/i, (msg) ->
     request(msg) (err, res, body) ->
