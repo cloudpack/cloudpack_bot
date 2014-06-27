@@ -5,7 +5,7 @@
 #   None
 #
 # Configuration:
-#   None
+#   Export your Flickr API key to FLICKR_API_KEY
 #
 # Commands:
 #   hubot shiba me - Receive a shiba
